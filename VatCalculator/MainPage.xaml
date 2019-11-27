@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="VatCalculator.MainPage">
+    <StackLayout HorizontalOptions="FillAndExpand" Spacing="15" Margin="0,60,0,0">
+        <StackLayout HorizontalOptions="Fill" HeightRequest="50">
+             <Label Text="Inmatat belopp:" VerticalOptions="Center" HorizontalOptions="Center"/>
+             <Label x:Name="totalAmountLabel" Text="0,00 SEK"  VerticalOptions="Center" HorizontalOptions="Center" />
+         </StackLayout>
+
+        <StackLayout HorizontalOptions="Fill" HeightRequest="50">
+            <Label Text="Momssats:" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Label x:Name="vatPercentageLabel" Text="0,00 %" VerticalOptions="Center" HorizontalOptions="Center"/>
+        </StackLayout>
+
+        <StackLayout HorizontalOptions="Fill" HeightRequest="50">
+            <Label Text="Uträknat Belopp:" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Label x:Name="amountWithoutVatLabel" Text="0,00 SEK" VerticalOptions="Center" HorizontalOptions="Center"/>
+        </StackLayout>
+
+        <StackLayout HorizontalOptions="Fill" HeightRequest="50">
+            <Label Text="Uträknad Moms:" VerticalOptions="Center" HorizontalOptions="Center" />
+            <Label x:Name="vatAmountLabel" Text="0,00 SEK" VerticalOptions="Center" HorizontalOptions="Center" />
+        </StackLayout>
+
+        <Entry Placeholder="Skriv beloppet inkl. moms" x:Name="amountInput" Keyboard="Numeric" VerticalOptions="Center" HorizontalOptions="Center"/>
+
+        <Button x:Name="eightPercentButton" Text ="8%" Clicked="OnEightPercent" />
+        <Button x:Name="twelvePercentButton" Text="12%" Clicked="OnTwelvePercent"/>
+        <Button x:Name="twentyFivePercentButton" Text="25%" Clicked="OnTwentyFivePercent"/>
+
+    </StackLayout>
+</ContentPage>

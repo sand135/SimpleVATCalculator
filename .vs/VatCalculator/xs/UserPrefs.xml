@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{2243CEA7-D189-4105-B252-162C4381FC7A}|Default">
+  <MonoDevelop.Ide.ItemProperties.VatCalculator.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.Nexus_5X_API_27" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="VatCalculator/MainPage.xaml">
+    <Files>
+      <File FileName="VatCalculator/MainPage.xaml.cs" Line="48" Column="23" />
+      <File FileName="VatCalculator/MainPage.xaml" Line="24" Column="147" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="VatCalculator" expanded="True">
+            <Node name="VatCalculator" expanded="True">
+              <Node name="MainPage.xaml" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.VatCalculator.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.8B8FB60D-9685-4572-A2C1-78E716FC9516" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
